@@ -49,14 +49,14 @@ python3 transfer_edge.py
 
 ```bash
 # all.nt可以放在gstore目录下，或者使用绝对路径
-bin/gbuild -db test -f all.nt
+bin/gbuild -db zstp_hnu -f all.nt
 ```
 
 ## gstore查询执行
 ### 查询执行
 ```bash
 # 查询语句放在test.sql文件中，test.sql可以放在gstore目录下或者使用绝对路径
-bin/gquery -db test -q test.sql
+bin/gquery -db zstp_hnu -q test.sql
 ```
 ### 查询语句示例
 ```sparql
